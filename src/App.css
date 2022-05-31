@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+main {
+  padding: 40px;
+}
+
+.Meme-header {
+  background: linear-gradient(90deg, #dd3d0c 1.18%, #A626D3 100%);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 15px 20px;
+  
+}
+
+.App-logo {
+  height: 100%;
+  }
+
+.Meme-Title {
+
+margin-right: auto;
+width: 140.79px;
+height: 24px;
+left: 58px;
+top: 21px;
+
+font: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+  
+}
+
+.Header-Topic {
+font: Inter;
+font-size: 20px
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form--input {
+  font: Inter;
+  border: 2px solid #dd3d0c;
+  border-radius: 50px;
+  text-indent: 10px;
+}
+
+.form-button { 
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #dd3d0c 1.18%, #A626D3 100%);
+  width: 50%;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  font: Inter;
+  cursor: pointer;
+  color: white;
+}
+
+.form-button:hover {
+  background-color: #FFFEF1;
+  color: black;
+}
+
+.form-button:focus {
+  outline: 0;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  margin: 15px 0;
+  padding: 0 5px;
+  transform: translateX(-50%);
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.legend {
+  font: Inter;
+  border: 2px solid #A626D3;
+  border-radius: 10px;
+  color:#dd3d0c;
+}
+
+.fieldset {
+  border: 2px solid #dd3d0c;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.label {
+  font: Inter;
+  color:#dd3d0c;
+  width: 40px;
+}
+
+.labelimage {
+  max-width: 80px;
+}
+
+.textarea {
+  margin-top: 20px;
+  max-width: 50%;
+  font: Inter;
+  border: 2px solid #dd3d0c;
+  border-radius: 50px;
+  text-indent: 10px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
